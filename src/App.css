@@ -1,0 +1,555 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.play-h1-span-w{
+  color: #fc7005;
+}
+
+.play-h1 {
+  color: rgb(246, 247, 249);
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.play-body{
+  background-image: url("https://www.houseofoak.co.uk/media/mageplaza/blog/post/p/e/pexels-lalesh-aldarwish-242827.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10px;
+}
+
+.play-span-01{
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.play-span-01 span{
+  color: #fd350d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.play-span-02{
+  color: #1af801;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.div-cnt-01{
+  margin-top: 40px;
+}
+.div-cnt-01 button{
+  width: 150px;
+  height: 40px;
+  background:linear-gradient(to right, rgb(251, 73, 2),rgb(255, 3, 158));
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+
+@media all and (max-width: 560px){
+  .play-span-01{
+    font-size: 13px;
+  }
+  .play-span-02{
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 300px){
+  .play-span-01{
+    font-size: 11px;
+  }
+  .play-span-02{
+    font-size: 11px;
+  }
+}
+
+.question-div-01{
+  padding-top: 20px;
+}
+
+.question-div-01-span-01-span-01{
+  font-size: 20px;
+  font-family: cursive;
+  color: #fd350d;
+}
+
+.question-div-01-span-01{
+  color: #1b1c1d;
+  font-weight: bold;
+}
+
+.question-div-02-span-01{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.question-div-03{
+  padding-top: 20px;
+}
+
+.question-div-03 button{
+  margin: 10px;
+  max-width: 250px;
+  min-width: 120px;
+  height: 30px;
+  background:linear-gradient(to right, rgb(253, 52, 7),rgb(255, 115, 0));
+  border: 1px solid rgb(160, 158, 158);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow:  2px 2px 10px rgb(29, 27, 27);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media all and (max-width : 420px){
+  .question-div-03 button{
+    font-size: 12px;
+  }
+}
+
+
+.question-div-cnt-04{
+  width: 400px;
+  height: 250px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.question-div-cnt-04 img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+@media all and (max-width: 480px){
+  .question-div-cnt-04{
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 325px){
+  .question-div-cnt-04{
+    width: 250px;
+    height: 150px;
+  }
+}
+
+@media all and (max-width: 270px){
+  .question-div-cnt-04{
+    width: 200px;
+    height: 120px;
+  }
+}
+
+
+.form-h1-wish{
+  font-family: monospace;
+  padding-top: 20px;
+  background-image: linear-gradient(to right, #ff4800 40%, #fb052e 40%, rgb(55, 6, 248)90%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}
+
+
+.Claim-input{
+  margin: 10px;
+  height: 30px;
+  box-shadow: 2px 2px 10px rgb(30, 28, 28);
+  width: 200px;
+}
+
+.claim-form-in-put-buton-cnt-01{
+  margin-top: 25px;
+}
+
+.form-claim-my-be-01{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #282c34;
+}
+
+.form-claim-my-be-02{
+  font-family: 'Courier New', Courier, monospace;
+  color: orangered;
+  font-weight: bold;
+}
+
+.claim-btn{
+  width: 120px;
+  height: 25px;
+  margin: 20px;
+  background-color: #f87801;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow:  2px 2px 10px rgb(44, 41, 41);
+}
+
+.Admin-Login input{
+  margin: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 10px gray;
+}
+
+.Admin-Login button{
+  width: 120px;
+  height: 25px;
+  box-shadow: 2px 2px 10px gray;
+  background-color: #f87801;
+  border: none;
+  cursor: pointer;
+}
+
+.updatepage-span-01{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 20px;
+}
+
+
+.updatepage-div-01{
+  margin: 20px;
+  border: 1px solid black;
+  width: 90%;
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 10px;
+  background: linear-gradient(60deg, rgb(247, 67, 2), rgb(253, 27, 99));
+}
+
+.updatepage-div-01 input{
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 20px;
+}
+@media all and (max-width : 420px){
+  .updatepage-div-01 input{
+    width: 140px;
+  }
+}
+
+@media all and (max-width : 270px){
+  .updatepage-div-01{
+    font-family: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.updatepage-div-01 button{
+  width: 120px;
+  margin: 10px;
+  height: 30px;
+  background-color: #f84301;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px rgb(189, 189, 189);
+  cursor: pointer;
+}
+
+.view-btn-01{
+  width: auto;
+  min-width: 120px;
+  height: 30px;
+  background-color: #f84301;
+  color: white;
+  border: none;
+  margin: 10px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px gray;
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.view-div-01{
+  border: 1px solid black;
+  width: 50%;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+
+@media all and (max-width : 655px){
+  .view-div-01{
+    width: 90%;
+  }
+}
+
+
+.view-img-cnt-01{
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.view-img-cnt-01 img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+@media all and (max-width : 365px){
+  .view-img-cnt-01{
+    width: 90%;
+  }
+  .view-div-01{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.view-qno-delet-01{
+  margin-top: 10px;
+  width: 120px;
+  height: 30px;
+  background-color: #f84301;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+
+.monitor-div-01{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 80px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px gray;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.monitor-div-01 button{
+  width: 120px;
+  height: 30px;
+  box-shadow: 2px 2px 10px gray;
+  margin: 10px;
+  background-color: #1af801;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+@media all and (max-width : 235px){
+  .monitor-div-01{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .monitor-div-01 button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    font-size: 12px;
+  }
+}
+
+.monitor-span-01{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: bold;
+}
+
+.monitor-span-02{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+.length-account{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.length-account span{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #f84301;
+}
+
+.spy-btn-01{
+  width: 120px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #f84301;
+  color: white;
+  margin: 3px;
+  box-shadow: 2px 2px 10px gray;
+  cursor: pointer;
+}
+
+.roll-01{
+  width: 90%;
+  height: 400px;
+  overflow: scroll;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px gray;
+  background: linear-gradient(60deg, rgb(248, 129, 1),rgb(255, 0, 102));
+}
+
+
+.Monitor-imp-01{
+  width: 90%;
+  margin: 10px;
+}
+
+.Monitor-imp-01-div-01{
+  width: 350px;
+  height: 260px;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 5px;
+  background: linear-gradient(60deg, rgb(3, 98, 251),rgb(8, 188, 248));
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.roll-02{
+  width: 95%;
+  height: 210px;
+  margin: 10px;
+  overflow: scroll;
+}
+
+.roll-sub-01{
+  width: 90%;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 13px;
+  background: linear-gradient(90deg, rgb(24, 95, 217),rgb(4, 53, 251));
+  margin: 7px;
+  position: relative;
+}
+
+.roll-sub-01 button{
+  margin: 5px;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(219, 7, 113),red);
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  height: 25px;
+}
+
+.Monit-delete-span{
+  color: #1b1c1d;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.Moin-span-may-be-01{
+  font-size: 16px;
+  font-family: cursive;
+  color: #f84301;
+}
+
+.Tab-calcul{
+  width: 90%;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 10px gray;
+  background: linear-gradient(90deg,rgb(4, 65, 249),rgb(1, 159, 250));
+}
+
+.Tab-calcul span{
+  color: #f5f6f5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Tab-calcul span span{
+  color: #1ef706;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.live-data-len-class{
+  font-size: 17px;
+  color: #2ffd05;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+
+.Monit-fix-amnt-div-01{
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgb(252, 60, 2),rgb(252, 134, 0));
+  box-shadow: 2px 2px 10px gray;
+}
+
+.Monit-fix-amnt-div-01 input{
+  width: 180px;
+  height: 30px;
+  margin: 10px;
+  box-shadow:  2px 2px 10px gray;
+  text-align: center;
+}
+
+.Monit-fix-amnt-div-01 button{
+  width: 120px;
+  height: 30px;
+  background-color: #01ecf8;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow:  2px 2px 10px gray;
+  cursor: pointer;
+}
+
